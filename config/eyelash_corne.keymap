@@ -67,9 +67,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&none  &kp Q  &kp W       &kp E        &kp R       &kp T                              &kp UP                &kp Y      &kp U       &kp I        &kp O       &kp P      &none
-&none  &kp A  &ht LALT S  &ht LCTRL D  &ht LGUI F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &ht RGUI J  &ht RCTRL K  &ht RALT L  &kp BSPC   &none
-&none  &kp Z  &kp X       &kp C        &kp V       &kp B       &kp SPACE              &kp DOWN              &kp N      &kp M       &kp COMMA    &kp DOT     &kp ENTER  &none
+&none  &kp Q  &kp W       &kp E        &kp R       &kp T                              &kp UP                &kp Y      &kp U       &kp I        &kp O           &kp P      &none
+&none  &kp A  &ht LALT S  &ht LCTRL D  &ht LGUI F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &ht RGUI J  &ht RCTRL K  &ht LEFT_ALT L  &kp BSPC   &none
+&none  &kp Z  &kp X       &kp C        &kp V       &kp B       &kp SPACE              &kp DOWN              &kp N      &kp M       &kp COMMA    &kp DOT         &kp ENTER  &none
                           &kp LGUI     &lt 2 TAB   &kp LSHIFT                                               &kp SPACE  &lt 1 TAB   &kp ESC
             >;
 
