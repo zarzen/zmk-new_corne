@@ -111,6 +111,18 @@
 
             sensor-bindings = <&scroll_encoder>;
         };
+
+        win_keymap {
+            display-name = "QWERTY";
+            bindings = <
+&none  &kp Q        &kp W       &kp E               &kp R        &kp T                              &kp UP                &kp Y      &kp U        &kp I                &kp O           &kp P      &none
+&none  &kp A        &ht LALT S  &ht LEFT_COMMAND D  &ht LCTRL F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &ht RCTRL J  &ht RIGHT_COMMAND K  &ht LEFT_ALT L  &kp BSPC   &none
+&none  &ht LCTRL Z  &kp X       &kp C               &kp V        &kp B       &kp SPACE              &kp DOWN              &kp N      &kp M        &kp COMMA            &kp DOT         &kp ENTER  &none
+                                &kp LCTRL           &lt 2 TAB    &kp LSHIFT                                               &kp SPACE  &lt 1 TAB    &kp ESC
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
     };
 
     conditional_layers {
