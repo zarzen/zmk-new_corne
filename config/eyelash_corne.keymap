@@ -65,7 +65,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "MAC";
             bindings = <
 &none  &kp Q               &kp W       &kp E        &kp R       &kp T                              &kp UP                &kp Y      &kp U       &kp I        &kp O           &kp P      &none
 &none  &kp A               &ht LALT S  &ht LCTRL D  &ht LGUI F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &ht RGUI J  &ht RCTRL K  &ht LEFT_ALT L  &kp BSPC   &none
@@ -77,7 +77,7 @@
         };
 
         win_keymap {
-            display-name = "QWERTY";
+            display-name = "WIN";
             bindings = <
 &none  &kp Q        &kp W       &kp E               &kp R        &kp T                              &kp UP                &kp Y      &kp U        &kp I                &kp O           &kp P      &none
 &none  &kp A        &ht LALT S  &ht LEFT_COMMAND D  &ht LCTRL F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &ht RCTRL J  &ht RIGHT_COMMAND K  &ht LEFT_ALT L  &kp BSPC   &none
