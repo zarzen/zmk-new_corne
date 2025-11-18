@@ -44,10 +44,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab$$
-  - {t: SYMBOL, h: toggle}
+  - SYMBOL
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: NUMBER, h: toggle}
+  - NUMBER
   - $$mdi:keyboard-esc$$
   WIN:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
